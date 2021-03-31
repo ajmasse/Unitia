@@ -2,9 +2,68 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
+nav {
+  width: 100%;
+  min-height: 7vh;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+li a {
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 1rem;
+}
+
+#login {
+  float: right;
+  padding-right: 2rem;
+  text-transform: uppercase;
+  color: #1dcdfe;
+}
+
+#login a {
+  color: #1dcdfe;
+}
+
+/* BANNER SECTION */
+
+#banner {
+  height: 100vh;
+}
+
+.container {
+  position: absolute;
+  top: 28.5%;
+  padding-left: 21.5rem;
+  font-weight: 700;
+}
+
+.container h1 {
+  font-size: 96px;
+}
+
+.container p {
+  font-size: 36px;
+  padding-top: 2.5rem;
+  padding-bottom: 3.7rem;
+}
+
+.button {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #1dcdfe;
+  padding: 0.7rem 1rem;
 }
