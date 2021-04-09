@@ -11,6 +11,7 @@ nav {
   background: rgb(255, 255, 255);
   position: fixed;
   overflow: hidden;
+  z-index: 5;
 }
 
 ul {
@@ -67,6 +68,7 @@ li a {
 
 .container h1 {
   font-size: 96px;
+  font-weight: 700;
 }
 
 .container p {
@@ -79,6 +81,28 @@ li a {
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
+  color: white;
   background-color: #1dcdfe;
   padding: 0.7rem 1rem;
+}
+
+#cards {
+  height: 100vh;
+  position: relative;
+}
+
+#cards .col {
+  width: 20rem;
+}
+
+#cards .col-2 {
+  width: 20rem;
+  padding-top: 2rem;
+}
+
+#cards h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
 }
