@@ -313,6 +313,113 @@ li a:hover {
 /* FOOTER SECTION */
 
 footer {
-  height: 40vh;
+  height: 50vh;
   background-color: #1dcdfe;
+  overflow: hidden;
+}
+
+.row {
+  padding-top: 5rem;
+}
+
+.column1 {
+  width: 36%;
+  padding-left: 15rem;
+  float: left;
+}
+
+.column1 h4 {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  color: rgb(238, 238, 238);
+}
+
+.column1 h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.column1 h5 {
+  font-size: 0.9rem;
+  padding-top: 1.5rem;
+  color: rgb(238, 238, 238);
+}
+
+svg {
+  padding-right: 0.5rem;
+}
+
+.column2 {
+  width: 23%;
+  padding-left: 15rem;
+}
+
+.column2 h4 {
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.column2 h5 {
+  font-size: 1rem;
+}
+
+.column3 {
+  width: 13%;
+  padding-left: 2rem;
+}
+
+.column3 h4 {
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.column3 h5 {
+  font-size: 1rem;
+}
+
+.column4 {
+  width: 20%;
+  padding-left: 2rem;
+}
+
+.column4 h4 {
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.column4 h5 {
+  font-size: 1rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer h3,
+h4,
+h5 {
+  color: white;
+}
+
+input {
+  padding: 0.7rem 1.3rem 0.7rem 0.5rem;
+  text-align: left;
+}
+
+footer a {
+  background: #000000;
+  padding: 0.8rem 1.3rem 0.75rem 1.3rem;
+  position: absolute;
+  left: 24%;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #1dcdfe;
 }
