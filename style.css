@@ -168,7 +168,7 @@ li a:hover {
 
 #featured {
   background-color: #fafafa;
-  height: 60vh;
+  height: 100vh;
   padding-top: 7em;
 }
 
@@ -176,7 +176,44 @@ li a:hover {
   font-size: 48px;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 4rem;
+}
+
+#featured h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+#featured h4 {
+  color: black;
+  font-size: 18px;
+  padding-bottom: 0.5rem;
+}
+
+#featured h5 {
+  color: black;
+  padding-bottom: 0.5rem;
+  font-size: 15px;
+}
+
+#featured p {
+  width: 90%;
+  padding-bottom: 1rem;
+}
+
+.featuredbtn {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  background: #1dcdfe;
+  font-size: 24px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.featuredbtn:hover {
+  color: white;
+  background: #0c5164;
 }
 
 /* STORIES SECTION */
@@ -185,7 +222,7 @@ li a:hover {
   background-color: #fafafa;
   height: 150vh;
   position: relative;
-  padding-top: 7rem;
+  padding-top: 4rem;
 }
 
 #stories h2 {
@@ -276,16 +313,19 @@ li a:hover {
 .t1 h4 {
   text-align: center;
   padding: 1.5rem 0 0.5rem 0;
+  color: black;
 }
 
 .t2 h4 {
   text-align: center;
   padding: 1.5rem 0 0.5rem 0;
+  color: black;
 }
 
 .t3 h4 {
   text-align: center;
   padding: 1.5rem 0 0.5rem 0;
+  color: black;
 }
 
 .t1,
