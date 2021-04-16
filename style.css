@@ -57,7 +57,7 @@ li a:hover {
 
 #banner {
   height: 100vh;
-  background: url("img/cave-bk.jpg");
+  background: url("img/cave-bk-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
