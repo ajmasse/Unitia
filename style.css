@@ -629,7 +629,7 @@ footer a:hover {
     font-weight: 600;
     color: rgb(236, 236, 236);
     text-decoration: none;
-    font-size: 10px;
+    font-size: 11px;
     padding: 0.3rem;
   }
 
@@ -672,7 +672,7 @@ footer a:hover {
   }
 
   #cards img {
-    width: 90;
+    width: 100%;
   }
 
   #cards h2 {
