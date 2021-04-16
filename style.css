@@ -144,6 +144,11 @@ li a:hover {
   color: #1dcdfe;
   font-weight: 600;
   font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.card-text:hover {
+  color: #0c5164;
 }
 
 .explorebtn {
@@ -160,7 +165,6 @@ li a:hover {
 }
 
 .explorebtn:hover {
-  background: #0c5164;
   color: white;
 }
 
